@@ -2,6 +2,7 @@
   android = {
     platformVersion = "34";
     buildToolsVersion = "34.0.0";
+    ndkVersions = ["26.1.10909125"];
     abiVersion = "x86_64";
     systemImageType = "google_apis";
   };
@@ -11,8 +12,10 @@
     abiVersions = [android.abiVersion];
     systemImageTypes = [android.systemImageType];
     buildToolsVersions = [android.buildToolsVersion];
+    cmakeVersions = ["3.22.1"];
 
     includeNDK = true;
+    inherit (android) ndkVersions;
 
     includeEmulator = true;
     includeSystemImages = true;
