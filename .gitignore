@@ -64,5 +64,6 @@ npm-debug.log
 # testing
 /coverage
 
-# nix
+# direnv
 .direnv
+.envrc
