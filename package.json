@@ -5,7 +5,8 @@
   "scripts": {
     "android-emulator": "run-test-emulator",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "perf-test": "reassure"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.6.0",
@@ -33,6 +34,7 @@
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "18.2.0",
+    "reassure": "^1.0.0",
     "typescript": "5.0.4"
   },
   "engines": {

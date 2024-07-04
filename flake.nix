@@ -39,7 +39,10 @@
           # Android
           JAVA_HOME = pkgs.jdk17.home;
           ANDROID_HOME = "${android.androidSdk}/libexec/android-sdk";
+          ANDROID_SDK_ROOT = "${android.androidSdk}/libexec/android-sdk";
           NDK_HOME = "${android.androidSdk}/libexec/android-sdk/ndk-bundle";
+          NDK_SDK_HOME = "${android.androidSdk}/libexec/android-sdk/ndk-bundle";
+          NDK_SDK_ROOT = "${android.androidSdk}/libexec/android-sdk/ndk-bundle";
           GRADLE_OPTS = "-Dorg.gradle.project.android.aapt2FromMavenOverride=${android.aapt2Path}";
 
           # Android emulator

@@ -67,3 +67,4 @@ npm-debug.log
 # direnv
 .direnv
 .envrc
+.reassure
